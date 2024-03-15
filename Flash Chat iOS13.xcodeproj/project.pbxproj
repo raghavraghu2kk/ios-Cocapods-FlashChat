@@ -20,8 +20,8 @@
 		4AF857B12BA3A4C2005EEB8E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AF857B02BA3A4C2005EEB8E /* GoogleService-Info.plist */; };
 		4AF857B32BA3BBFC005EEB8E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF857B22BA3BBFB005EEB8E /* Constants.swift */; };
 		4AF857B52BA3C238005EEB8E /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF857B42BA3C238005EEB8E /* Message.swift */; };
-		4AF857B82BA3C7DB005EEB8E /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF857B62BA3C7DB005EEB8E /* MessageCell.swift */; };
-		4AF857B92BA3C7DB005EEB8E /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AF857B72BA3C7DB005EEB8E /* MessageCell.xib */; };
+		4AF857BC2BA3DA12005EEB8E /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF857BA2BA3DA12005EEB8E /* MessageCell.swift */; };
+		4AF857BD2BA3DA12005EEB8E /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AF857BB2BA3DA12005EEB8E /* MessageCell.xib */; };
 		F71D1A13A8D8C9E05D0F3D49 /* Pods_Flash_Chat_iOS13.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49CF857EEC082FC9713D90BB /* Pods_Flash_Chat_iOS13.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,8 +43,8 @@
 		4AF857B02BA3A4C2005EEB8E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4AF857B22BA3BBFB005EEB8E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4AF857B42BA3C238005EEB8E /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
-		4AF857B62BA3C7DB005EEB8E /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MessageCell.swift; path = "Flash Chat iOS13/MessageCell.swift"; sourceTree = SOURCE_ROOT; };
-		4AF857B72BA3C7DB005EEB8E /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MessageCell.xib; path = "Flash Chat iOS13/MessageCell.xib"; sourceTree = SOURCE_ROOT; };
+		4AF857BA2BA3DA12005EEB8E /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MessageCell.swift; path = "Flash Chat iOS13/MessageCell.swift"; sourceTree = SOURCE_ROOT; };
+		4AF857BB2BA3DA12005EEB8E /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MessageCell.xib; path = "Flash Chat iOS13/MessageCell.xib"; sourceTree = SOURCE_ROOT; };
 		A78C554FB1D617CB88318418 /* Pods-Flash Chat iOS13.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat iOS13.release.xcconfig"; path = "Target Support Files/Pods-Flash Chat iOS13/Pods-Flash Chat iOS13.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,8 +110,8 @@
 		0B628193235DF03400E35CAF /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4AF857B62BA3C7DB005EEB8E /* MessageCell.swift */,
-				4AF857B72BA3C7DB005EEB8E /* MessageCell.xib */,
+				4AF857BA2BA3DA12005EEB8E /* MessageCell.swift */,
+				4AF857BB2BA3DA12005EEB8E /* MessageCell.xib */,
 				0B62817C235DEE8100E35CAF /* Main.storyboard */,
 			);
 			path = Views;
@@ -203,7 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B628183235DEE8400E35CAF /* LaunchScreen.storyboard in Resources */,
-				4AF857B92BA3C7DB005EEB8E /* MessageCell.xib in Resources */,
+				4AF857BD2BA3DA12005EEB8E /* MessageCell.xib in Resources */,
 				0B628180235DEE8400E35CAF /* Assets.xcassets in Resources */,
 				4AF857B12BA3A4C2005EEB8E /* GoogleService-Info.plist in Resources */,
 				0B62819E235F0F4D00E35CAF /* README.md in Resources */,
@@ -268,7 +268,7 @@
 				4AF857B52BA3C238005EEB8E /* Message.swift in Sources */,
 				0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */,
 				0B62818D235DF00B00E35CAF /* RegisterViewController.swift in Sources */,
-				4AF857B82BA3C7DB005EEB8E /* MessageCell.swift in Sources */,
+				4AF857BC2BA3DA12005EEB8E /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
